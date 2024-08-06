@@ -245,7 +245,7 @@ function HomeStayDetail() {
                     if (compressImageResult) {
                         const formData = new FormData();
                         formData.append('image', compressImageResult);
-                        let response = await axios.post('https://booking-kohl-six.vercel.app/upload', formData, {
+                        let response = await axios.post('https://sunny24.vercel.app/upload', formData, {
                             headers: {
                                 'Content-Type': 'multipart/form-data',
                             },
@@ -295,7 +295,7 @@ function HomeStayDetail() {
                 note: customerInfo.note
             }
 
-            let response = await axios.post('https://booking-kohl-six.vercel.app/booking/v2', data);
+            let response = await axios.post('https://sunny24.vercel.app/booking/v2', data);
             response = response?.data
             let bookingResponse = {};
             if (response?.code === 1000) {
@@ -352,7 +352,7 @@ function HomeStayDetail() {
                 isCalAmountOnly: true
             }
 
-            let response = await axios.post('https://booking-kohl-six.vercel.app/booking/v2', data);
+            let response = await axios.post('https://sunny24.vercel.app/booking/v2', data);
             response = response?.data
             if (response?.code === 1000) {
                 setTotalPayment(response?.data?.total)
@@ -365,7 +365,7 @@ function HomeStayDetail() {
 
     const queryBooking = async (bookingId) => {
         try {
-            let response = await axios.post('https://booking-kohl-six.vercel.app/booking/query', { bookingId });
+            let response = await axios.post('https://sunny24.vercel.app/booking/query', { bookingId });
             response = response?.data
             if (response?.code === 1000) {
                 response = response?.data

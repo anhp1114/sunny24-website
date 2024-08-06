@@ -162,7 +162,7 @@ const AvailableAllRoom = (props) => {
 
             const homestayList = homestayProps || homestay;
 
-            let response = await axios.post('https://be-booking-homestay.onrender.com/room/checkAvailable', data);
+            let response = await axios.post('https://sunny24.vercel.app/room/checkAvailable', data);
             response = response?.data
             let newData = [];
             if (response?.code === 1000) {

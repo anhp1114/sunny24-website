@@ -10,7 +10,7 @@ function Contact() {
 
         const fetchInfo = async () => {
             try {
-                let info = await axios.post('https://be-booking-homestay.onrender.com/siteInfo');
+                let info = await axios.post('https://sunny24.vercel.app/siteInfo');
                 info = info?.data;
                 if (info?.code === 1000) {
                     setSiteInfo({

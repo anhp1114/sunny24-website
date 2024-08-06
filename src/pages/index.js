@@ -49,7 +49,7 @@ function Index() {
 
         const fetchHomeStay = async () => {
             try {
-                let homestayResult = await axios.post('https://be-booking-homestay.onrender.com/room/search', {}, { timeout: 60000 });
+                let homestayResult = await axios.post('https://sunny24.vercel.app/room/search', {}, { timeout: 60000 });
                 homestayResult = homestayResult?.data;
                 if (homestayResult?.code === 1000) {
                     setHomeStay(homestayResult?.data?.rooms);
@@ -63,7 +63,7 @@ function Index() {
 
         const fetchInfo = async () => {
             try {
-                let info = await axios.post('https://be-booking-homestay.onrender.com/siteInfo');
+                let info = await axios.post('https://sunny24.vercel.app/siteInfo');
                 info = info?.data;
                 if (info?.code === 1000) {
                     setSiteInfo({

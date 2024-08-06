@@ -30,7 +30,7 @@ const InfiniteScrollTable = (props) => {
       );
 
       let response = await axios.post(
-        'https://be-booking-homestay.onrender.com/room/checkAvailable',
+        'https://sunny24.vercel.app/room/checkAvailable',
         queryParams
       );
       response = response?.data || {};
@@ -49,7 +49,7 @@ const InfiniteScrollTable = (props) => {
     setLoading(true);
     try {
       let homestayResult = await axios.post(
-        'https://be-booking-homestay.onrender.com/room/search'
+        'https://sunny24.vercel.app/room/search'
       );
       homestayResult = homestayResult?.data;
 
