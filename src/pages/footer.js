@@ -29,7 +29,7 @@ function Footer(props) {
                                 <h6 style={{ color: 'black' }}>Liên hệ</h6>
                                 <ul>
                                     <li style={{ color: 'black' }}>{siteInfo.phoneNumber}</li>
-                                    <li><a className="hover-black" href={siteInfo.facebook} target="_blank" style={{ color: 'black' }}>Dear Marris</a></li>
+                                    <li><a className="hover-black" href={siteInfo.facebook} target="_blank" style={{ color: 'black' }}>Sunny</a></li>
                                     <li style={{ color: 'black' }}>Địa chỉ</li>
                                 </ul>
                             </div>

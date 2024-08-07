@@ -102,7 +102,7 @@ function Menu() {
               href='https://www.facebook.com/MaryJaneTheHomeVietNam?mibextid=LQQJ4d'
               rel='noreferrer'
             >
-              <i className='fa fa-envelope hover-black'></i> Dear Marris
+              <i className='fa fa-envelope hover-black'></i> Sunny
             </a>
           </li>
         </ul>
@@ -123,7 +123,7 @@ function Menu() {
                       target='_blank'
                       href='https://www.facebook.com/MaryJaneTheHomeVietNam?mibextid=LQQJ4d'
                     >
-                      <i className='fa fa-envelope'></i> Dear Marris
+                      <i className='fa fa-envelope'></i> Sunny
                     </a>
                   </li>
                 </ul>

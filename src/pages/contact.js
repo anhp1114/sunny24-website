@@ -59,7 +59,7 @@ function Contact() {
                                         </tr>
                                         <tr>
                                             <td className="c-o">Facebook:</td>
-                                            <td><a href={siteInfo.facebook} target="_blank">Dear Marris</a></td>
+                                            <td><a href={siteInfo.facebook} target="_blank">Sunny</a></td>
                                         </tr>
                                     </tbody>
                                 </table>

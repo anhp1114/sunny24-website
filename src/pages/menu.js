@@ -62,7 +62,7 @@ function Menu(props) {
                 </div>
                 <ul className="top-widget">
                     <li style={{ color: 'black' }}><i className="fa fa-phone"></i> {siteInfo.phoneNumber}</li>
-                    <li className="hover-black"><a className="hover-black" target="_blank" href={siteInfo.facebook} style={{ color: 'black' }} rel="noreferrer"><i className="fa fa-envelope hover-black"></i> Dear Marris</a></li>
+                    <li className="hover-black"><a className="hover-black" target="_blank" href={siteInfo.facebook} style={{ color: 'black' }} rel="noreferrer"><i className="fa fa-envelope hover-black"></i> Sunny</a></li>
                 </ul>
             </div>
 
@@ -73,7 +73,7 @@ function Menu(props) {
                             <div className="col-lg-6">
                                 <ul className="tn-left">
                                     <li style={{ color: '#fcead6' }}><i className="fa fa-phone"></i> {siteInfo.phoneNumber}</li>
-                                    <li className="hover-black"><a className="hover-black" target="_blank" href={siteInfo.facebook} style={{ color: '#fcead6' }}><i className="fa fa-envelope"></i> Dear Marris</a></li>
+                                    <li className="hover-black"><a className="hover-black" target="_blank" href={siteInfo.facebook} style={{ color: '#fcead6' }}><i className="fa fa-envelope"></i> Sunny</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
